@@ -9,7 +9,7 @@ provider "aws" {
 # CloudFront requires ACM certificates to be issued in us-east-1, regardless
 # of which region the rest of the stack lives in.
 provider "aws" {
-  alias  = "us_east_1"
+  alias  = "us-east-1"
   region = "us-east-1"
 
   default_tags {
